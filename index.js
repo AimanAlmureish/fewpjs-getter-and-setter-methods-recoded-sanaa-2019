@@ -21,10 +21,10 @@ class Circle {
   }
   
   set diameter(radius){
-    return 2 * this.radius
+    return 2 * radius
   }
   
     set circumference(radius){
-    return 2 * Math.PI * this.radius
+    return 2 * Math.PI * radius
   }
 }
