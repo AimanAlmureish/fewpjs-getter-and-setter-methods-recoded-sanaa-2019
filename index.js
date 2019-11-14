@@ -19,4 +19,6 @@ class Circle {
     return  Math.PI * Math.pow(this.radius , 2) 
 
   }
+  
+  set diameter()
 }
