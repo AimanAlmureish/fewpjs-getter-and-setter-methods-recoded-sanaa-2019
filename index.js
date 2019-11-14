@@ -23,4 +23,8 @@ class Circle {
   set diameter(radius){
     return 2 * this.radius
   }
+  
+    set circumference(radius){
+    return 2 * Math.PI * this.radius
+  }
 }
